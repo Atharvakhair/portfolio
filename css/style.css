@@ -1,0 +1,38 @@
+/* Icon Section Styling */
+    .skills-section {
+      padding: 50px 0;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    .skills-section h2 {
+      margin-bottom: 30px;
+    }
+
+    .skill-box {
+      display: inline-block;
+      width: 180px;
+      padding: 20px;
+      margin: 10px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .skill-box:hover {
+      background-color: #e8f4ff;
+      transform: scale(1.05);
+    }
+
+    .skill-box i {
+      font-size: 40px;
+      color: #337ab7;
+      margin-bottom: 10px;
+    }
+
+    .skill-name {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
